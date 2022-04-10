@@ -1,0 +1,19 @@
+{
+  "name": "monorepo-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "core-app/**"
+  ],
+  "private": "true",
+  "scripts": {
+    "graph": "nx graph"
+  },
+  "devDependencies": {
+    "@nrwl/workspace": "latest",
+    "nx": "latest",
+    "@nrwl/cli": "latest",
+    "typescript": "4.2.4"
+  }
+}
