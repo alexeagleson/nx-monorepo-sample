@@ -8,6 +8,7 @@
   ],
   "private": "true",
   "scripts": {
+    "build": "nx run core-app:build",
     "graph": "nx graph"
   },
   "devDependencies": {
