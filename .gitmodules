@@ -1,6 +1,6 @@
 [submodule "core-app/child-apps/sample-app-1"]
 	path = core-app/child-apps/sample-app-1
-	url = git@github.com:alexeagleson/sample-app-1.git
+	url = https://github.com/alexeagleson/sample-app-1.git
 [submodule "core-app/child-apps/sample-app-2"]
 	path = core-app/child-apps/sample-app-2
-	url = git@github.com:alexeagleson/sample-app-2.git
+	url = https://github.com/alexeagleson/sample-app-2.git
