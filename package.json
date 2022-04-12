@@ -8,8 +8,11 @@
   ],
   "private": "true",
   "scripts": {
-    "build": "nx run core-app:build",
-    "graph": "nx graph"
+    "build": "nx run core-app:build ",
+    "graph": "nx graph",
+    "dev": "nx run-many --all --target=dev",
+    "test": "nx run-many --all --target=test",
+    "playwright:test": "nx run-many --all --target=playwright:test"
   },
   "devDependencies": {
     "@nrwl/workspace": "latest",
